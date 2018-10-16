@@ -19,6 +19,7 @@ html {
   100% {
     opacity: 1;
   }
+
 }
 
 #rainbow-violet {
@@ -35,6 +36,7 @@ html {
   100% {
     stroke-dashoffset: 0;
   }
+
 }
 
 #rainbow-indigo {
@@ -51,6 +53,7 @@ html {
   100% {
     stroke-dashoffset: 0;
   }
+
 }
 
 #rainbow-blue {
@@ -67,6 +70,7 @@ html {
   100% {
     stroke-dashoffset: 0;
   }
+
 }
 
 #rainbow-green {
@@ -83,6 +87,7 @@ html {
   100% {
     stroke-dashoffset: 0;
   }
+
 }
 
 #rainbow-yellow {
@@ -99,6 +104,7 @@ html {
   100% {
     stroke-dashoffset: 0;
   }
+
 }
 
 #rainbow-orange {
@@ -115,6 +121,7 @@ html {
   100% {
     stroke-dashoffset: 0;
   }
+
 }
 
 #rainbow-red {
@@ -131,6 +138,7 @@ html {
   100% {
     stroke-dashoffset: 0;
   }
+
 }
 
 #narwhal-body {
@@ -147,6 +155,7 @@ html {
   100% {
     stroke-dashoffset: 0;
   }
+
 }
 
 #narwhal-eye {
@@ -162,4 +171,5 @@ html {
   100% {
     opacity: 1;
   }
+
 }
