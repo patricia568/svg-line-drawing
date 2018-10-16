@@ -1,0 +1,9 @@
+html {
+  font-family: "Unica One", sans-serif;
+  color: #fff;
+}
+
+.content {
+  left: 3em;
+  max-width: 16em;
+}
