@@ -5,5 +5,134 @@ html {
 
 .content {
   left: 3em;
+  top: 15em;
   max-width: 16em;
+}
+
+#rainbow-violet {
+  animation: fade-in-violet 1s .3s linear forwards;
+  stroke-dasharray: 1917.683px;
+  stroke-dashoffset: 1917.683px;
+}
+
+@keyframes fade-in-violet {
+  0% {
+    stroke-dashoffset: 1917.683px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#rainbow-indigo {
+  animation: fade-in-indigo 1s .3s linear forwards;
+  stroke-dasharray: 1812.469px;
+  stroke-dashoffset: 1812.469px;
+}
+
+@keyframes fade-in-indigo {
+  0% {
+    stroke-dashoffset: 1812.469px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#rainbow-blue {
+  animation: fade-in-blue 1s .3s linear forwards;
+  stroke-dasharray: 1705.475px;
+  stroke-dashoffset: 1705.475px;
+}
+
+@keyframes fade-in-blue {
+  0% {
+    stroke-dashoffset: 1705.475px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#rainbow-green {
+  animation: fade-in-green 1s .3s linear forwards;
+  stroke-dasharray: 1596.057px;
+  stroke-dashoffset: 1596.057px;
+}
+
+@keyframes fade-in-green {
+  0% {
+    stroke-dashoffset: 1596.057px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#rainbow-yellow {
+  animation: fade-in-yellow 1s .3s linear forwards;
+  stroke-dasharray: 1483.325px;
+  stroke-dashoffset: 1483.325px;
+}
+
+@keyframes fade-in-yellow {
+  0% {
+    stroke-dashoffset: 1483.325px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#rainbow-orange {
+  animation: fade-in-orange 1s .3s linear forwards;
+  stroke-dasharray: 1366.25px;
+  stroke-dashoffset: 1366.25px;
+}
+
+@keyframes fade-in-orange {
+  0% {
+    stroke-dashoffset: 1366.25px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#rainbow-red {
+  animation: fade-in-red 1s .3s linear forwards;
+  stroke-dasharray: 1243.021px;
+  stroke-dashoffset: 1243.021px;
+}
+
+@keyframes fade-in-red {
+  0% {
+    stroke-dashoffset: 1243.021px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#narwhal-body {
+  animation: fade-in-body 1s linear forwards;
+  stroke-dasharray: 1908.936px;
+  stroke-dashoffset: 1908.936px;
+}
+
+@keyframes fade-in-body {
+  0% {
+    stroke-dashoffset: 1908.936px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
 }
