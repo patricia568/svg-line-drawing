@@ -7,6 +7,18 @@ html {
   left: 3em;
   top: 15em;
   max-width: 16em;
+  animation: fade-in-content .5s linear forwards;
+  opacity: 0;
+}
+
+@keyframes fade-in-content {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 #rainbow-violet {
@@ -134,5 +146,20 @@ html {
 
   100% {
     stroke-dashoffset: 0;
+  }
+}
+
+#narwhal-eye {
+  animation: fade-in-eye .5s 1s linear forwards;
+  opacity: 0;
+}
+
+@keyframes fade-in-eye {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
